@@ -1,0 +1,329 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/* Fonts Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.entry-content .content{
+	max-width: 100% !important;
+}
+.entry-content .content h2{
+	margin-bottom: 40px;
+}
+.entry-content .button.button-primary{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.entry-content .col-sm-3 p{
+	margin: 20px 0 15px 0;
+}
+body .appointify-main-content form label{
+	font-size: 14px;
+}
+#custom_booking_form h4{
+	font-weight:normal;
+}
+#calendar .fc-time-grid .fc-bgevent {
+    left: -10px !important;
+    right: -10px !important;
+}
+#calender .fc-prev-button, #calender .fc-next-button {
+	padding: 10px 15px !important;
+}
+#calendar .fc-icon{
+	display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.fc-business-container {
+    margin-top: -10px;
+}
+#calendar .fc-agenda-view table , #calendar .fc-agenda-view table thead tr td , #calendar .fc-agenda-view table thead th {
+	border-color:transparent;
+}
+body .appointify-main-content .fc-day-header  span {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 100%;
+    height: auto;
+    margin: auto;
+    color: #252F3F;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+	font-size: 18px;
+}
+#calendar button.fc-prev-button.fc-button.fc-state-default.fc-corner-left.fc-state-disabled {
+    padding: .65em .85em !important;
+    background-color: #e5e7eb !important;
+    border-color: #e5e7eb !important;
+	border-top-left-radius:7px !important;
+	border-bottom-left-radius:7px !important;	
+}
+
+body .appointify-main-content .fc-time-grid .fc-bgevent {
+    background-image: url('../css/event-bg.png') !important;
+}
+
+#calendar button.fc-next-button.fc-button.fc-state-default.fc-corner-right {
+    padding: 0.65em .85em !important;
+    background-color: #e5e7eb !important;
+    border-color: #e5e7eb !important;
+    background-image: none !important;
+    opacity: .65 !important;
+	border-top-right-radius:7px;
+	border-bottom-right-radius:7px;	
+}
+
+#calendar button.fc-next-button.fc-button.fc-state-default.fc-corner-right:hover {
+    background-color: #dbdce0;
+    border-color: #dbdce0;
+}
+
+#calendar button.fc-prev-button.fc-button.fc-state-default.fc-corner-left.fc-state-disabled:hover {
+    background-color: #dbdce0;
+    border-color: #dbdce0 !important;
+}
+
+body .appointify-main-content .fc-view-container table tr td {
+    border: 1px solid rgb(229,231,235);
+}
+body .appointify-main-content .fc-view-container table tbody.fc-body > tr > td.fc-widget-content {
+    border: 0 !important;
+}
+
+body .appointify-main-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #252F3F;
+    margin-bottom: 34px;
+}
+
+body .appointify-main-content .sidebar-area .button-primary {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    color: #374151 !important;
+    background-color: transparent !important;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+    text-align: left !important;
+	border: 0px;
+    border-bottom: 1px solid #252F3F !important;
+    justify-content: flex-start;
+	position: relative;
+}
+body .appointify-main-content .sidebar-area .button-primary.google-btn:before{
+	content: "\f18b";
+    font-family: "dashicons";
+	font-weight: 700;
+	color: #374151;
+	font-size: 18px;
+    margin-right: 12px;
+}
+
+body .appointify-main-content p {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #374151;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+body .appointify-main-content form h3 {
+    font-family: 'Montserrat';
+    font-size: 24px !important;
+    font-weight: 700;
+    margin-bottom: 10px !important;
+    color: #252F3F;
+}
+
+article#post-6 .content form h4 {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+	margin-bottom:15px;
+}
+
+div#calendar .fc-left h2 {
+    font-family: 'Montserrat';
+}
+
+article#post-6 .content form label#date_time {
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: 'Montserrat';
+}
+
+body .appointify-main-content form input.form-control {
+    height: 38px;
+    border: 1px solid #caccd0;
+    box-shadow: unset;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 12px !important;
+    color: #212121;
+    font-weight: 500;
+}
+body .appointify-main-content form ::placeholder{
+	color: #212121;
+    font-weight: 500;
+}
+body .appointify-main-content form input.form-control:focus{
+	outline: none;
+    border-color: rgb(28 100 242 / 50%);
+    box-shadow: 0px 0px 8px rgb(28 100 242 / 30%);
+}
+body .appointify-main-content label {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+}
+
+body .appointify-main-content .btn-primary {
+    padding: 8px 25px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    letter-spacing: 0.22px;
+    font-weight: 700;
+    color: #fff !important;
+    background-color: #1c64f2 !important;
+	border-color: #1c64f2 !important;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.fc-scroller::-webkit-scrollbar {
+    width: 5px;
+}
+
+.fc-scroller::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.fc-scroller::-webkit-scrollbar-thumb {
+    background-color: #28303d;
+    border-radius: 20px;
+}
+
+body .appointify-main-content .sidebar-area {
+    background-color: transparent;
+    padding: 30px 20px;
+    border-right: 3px solid #868686;
+    border-radius: 0;
+}
+
+body .appointify-main-content .fc-time-grid .fc-slats td span {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    color: #4B5563;
+}
+
+article#post-6 footer.entry-footer {
+    text-align: left;
+    margin-top: 0px;
+}
+
+article#post-6 footer.entry-footer span.edit-link a {
+    padding: 10px 25px;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    letter-spacing: 0.22px;
+    font-weight: 500;
+    background: #28303d;
+    color: #fff;
+    border-radius: 5px;
+}
+
+body .appointify-main-content .fc-state-default.fc-corner-left {
+    padding: 0.65em .85em !important;
+    background-color: #e5e7eb !important;
+    background-image: none;
+    opacity: 0.65;
+    border-color: #e5e7eb;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+body .appointify-main-content .fc-state-default.fc-corner-left:focus,
+body .appointify-main-content button.fc-next-button.fc-button.fc-state-default.fc-corner-right:focus{
+	outline: none;
+}
+.log_out_btn {
+    margin-left: 5px;
+}
+.google-btn.button-primary {
+    text-transform: capitalize;
+}
+@media only screen and (max-width:1199px) {
+	div#calendar .fc-view-container {
+		overflow: scroll;
+	}
+	 .sidebar-area {
+        margin-bottom: 30px;
+    }
+    article#post-6 .content p {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+	article#post-6 footer.entry-footer {
+		max-width: 95%;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	#calendar .fc-time-grid, #calendar .fc-time-grid-container {
+		min-height: 400px !important;
+	}
+	div#calendar .fc-left h2 {
+		font-size: 20px;
+	}
+	.sidebar-area {
+		margin-bottom: 30px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+    body .appointify-main-content .sidebar-area{
+        border: none;
+    }
+    #calendar .fc-toolbar .fc-left {
+        float: unset !important;
+    }
+    #calendar .fc-toolbar .fc-right {
+        float: unset !important;
+    }
+}
+
+#calendar .fc-toolbar .fc-left
+/* 02-07-2021 Start */
+
+
+
+body .appointify-main-content #calendar .fc-event, body .appointify-main-content #calendar .fc-event-dot {
+    background-color: rgb(28 100 242 / 80%);
+    border: 0;
+    padding: 5px;
+}
+
+.fc-widget-content table{
+    width: 100%;
+}
+
+/* 02-07-2021 End */

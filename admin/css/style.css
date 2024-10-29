@@ -1,0 +1,16 @@
+.img-section {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaeaea;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    width: 150px;
+}
+.img-section img {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 10px;
+    padding: 2px;
+}
